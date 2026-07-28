@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Advocates for Judicial Uniformity — Georgia Subpoena Compliance Audit</title>
+<meta name="description" content="A documented audit of Georgia Magistrate Court compliance with O.C.G.A. § 24-13-21(c): the clerk's ministerial duty to issue subpoenas in blank, on demand.">
+<style>
+  :root{
+    --navy:#1e3a5f; --ink:#1a1a1a; --muted:#5b6470; --line:#e2e6ea; --bg:#ffffff;
+    --red:#b91c1c; --red-bg:#fef2f2; --amber:#b45309; --amber-bg:#fffbeb;
+    --green:#15803d; --green-bg:#f0fdf4; --gray:#4b5563; --gray-bg:#f4f5f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;color:var(--ink);background:var(--bg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.25;color:var(--navy)}
+  a{color:#1d4ed8}
+  header.mast{background:var(--navy);color:#fff;padding:28px 0 24px}
+  header.mast .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px}
+  header.mast h1{color:#fff;margin:0;font-size:1.5rem}
+  header.mast .org{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:4px}
+  header.mast a{color:#cfe0ff}
+  .hero{border-bottom:1px solid var(--line);padding:34px 0}
+  .hero h2{font-size:1.9rem;margin:.1em 0 .3em}
+  .hero .sub{color:var(--muted);font-size:1.05rem;max-width:70ch}
+  .stamp{display:inline-block;margin-top:14px;font-size:.82rem;color:var(--muted);
+    border:1px solid var(--line);border-radius:4px;padding:4px 10px}
+  section{padding:30px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:1.4rem;margin:0 0 .5em}
+  .lede{color:var(--muted)}
+  .callout{background:var(--red-bg);border-left:4px solid var(--red);padding:14px 18px;border-radius:0 6px 6px 0;margin:16px 0}
+  .callout.amber{background:var(--amber-bg);border-left-color:var(--amber)}
+  .callout.navy{background:#f2f6fb;border-left-color:var(--navy)}
+  .recipients{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:12px}
+  .recipients div{border:1px solid var(--line);border-radius:6px;padding:12px 14px;font-size:.94rem}
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 4px}
+  .chip{display:inline-flex;align-items:center;gap:7px;font-size:.82rem;border:1px solid var(--line);
+    border-radius:999px;padding:4px 12px;font-weight:600}
+  .dot{width:10px;height:10px;border-radius:50%}
+  .d-red{background:var(--red)} .d-amber{background:var(--amber)} .d-green{background:var(--green)} .d-gray{background:var(--gray)}
+  .tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:12px;border:1px solid var(--line);border-radius:8px}
+  table{border-collapse:collapse;width:100%;min-width:640px;font-size:.92rem}
+  th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#f7f9fb;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+  tr:last-child td{border-bottom:none}
+  td .cty{font-weight:700;color:var(--navy)}
+  td .anchor{display:inline-block;font-size:.68rem;background:var(--navy);color:#fff;border-radius:3px;padding:1px 6px;margin-left:6px;vertical-align:middle}
+  blockquote{margin:0;font-family:Georgia,serif;font-style:italic;color:#2a2a2a}
+  .tier-red td:first-child{box-shadow:inset 4px 0 0 var(--red)}
+  .tier-amber td:first-child{box-shadow:inset 4px 0 0 var(--amber)}
+  .tier-green td:first-child{box-shadow:inset 4px 0 0 var(--green)}
+  .tier-gray td:first-child{box-shadow:inset 4px 0 0 var(--gray)}
+  .links a{display:inline-block;font-size:.8rem;margin-right:10px;white-space:nowrap}
+  code{font:.8rem/1.4 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#f4f5f7;padding:1px 5px;border-radius:3px}
+  ol.method{padding-left:20px} ol.method li{margin:8px 0}
+  footer{padding:28px 0 44px;color:var(--muted);font-size:.86rem}
+  footer a{color:#1d4ed8}
+  .disclaimer{font-size:.8rem;color:var(--muted);margin-top:10px}
+  @media print{header.mast{background:#fff;color:#000}header.mast h1,header.mast a{color:#000}.tablewrap{overflow:visible}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div>
+      <div class="org">Advocates for Judicial Uniformity</div>
+      <h1>Georgia Subpoena Compliance Audit</h1>
+    </div>
+    <div><a href="https://www.facebook.com/JudicialUniformity/" target="_blank" rel="noopener">Facebook&nbsp;›</a></div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <h2>Are Georgia's Magistrate Court clerks obeying O.C.G.A.&nbsp;§&nbsp;24-13-21(c)?</h2>
+    <p class="sub">The statute is not ambiguous: the clerk of court <strong>shall</strong> make subpoenas
+    available <strong>in blank</strong> and <strong>on demand</strong> once a case number exists. Issuance is a
+    <em>ministerial</em> act — no hearing date, no judicial approval, no witness-disclosure prerequisite
+    (<em>State v. Brantley</em>, 147 Ga. App. 569). This page documents, county by county, where that duty is
+    being unlawfully gated — quoting each county's <em>own published words</em>, with a preserved copy of the source.</p>
+    <span class="stamp">Re-audit captured 2026-07-28 &nbsp;·&nbsp; every quote verified against a saved copy of the source</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Delivered to</h2>
+    <p class="lede">This audit is provided to the offices responsible for uniformity in Georgia's courts:</p>
+    <div class="recipients">
+      <div>Supreme Court of Georgia</div>
+      <div>Administrative Office of the Courts (AOC)</div>
+      <div>Council of Magistrate Court Judges</div>
+      <div>Georgia First Amendment Foundation</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>How to read this audit</h2>
+    <div class="legend">
+      <span class="chip"><span class="dot d-red"></span>Documented violation — published gatekeeping language</span>
+      <span class="chip"><span class="dot d-amber"></span>Caution — barrier / friction short of a hard gate</span>
+      <span class="chip"><span class="dot d-green"></span>Compliant — blank, on demand</span>
+      <span class="chip"><span class="dot d-gray"></span>Records requested / no published policy</span>
+    </div>
+    <div class="callout navy">
+      <strong>Evidentiary rule.</strong> A county appears in the red column <em>only</em> when we can quote its
+      own published subpoena instructions. Counties with no public policy are never accused — they are marked
+      <em>Records requested</em> and pursued through the Georgia Open Records Act (O.C.G.A. § 50-18-70 <em>et seq.</em>),
+      whose response (or 3-day non-response) becomes the record.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Documented violations <span style="font-weight:400;color:var(--muted);font-size:1rem">— language live &amp; preserved 2026-07-28</span></h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>County</th><th>The county's own published language</th><th>Proof</th></tr></thead>
+        <tbody>
+          <tr class="tier-red">
+            <td><span class="cty">Richmond</span><span class="anchor">ANCHOR</span></td>
+            <td><blockquote>"The Clerk, upon request of the party or an attorney, shall issue a subpoena, <strong>once the case has been scheduled for a hearing</strong>."</blockquote></td>
+            <td class="links">
+              <a href="https://www.augustaga.gov/104/Issuing-Subpoenas-in-Magistrate-Court" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Richmond_augustaga_Issuing-Subpoenas.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>7e49517a5939</code></a>
+            </td>
+          </tr>
+          <tr class="tier-red">
+            <td><span class="cty">Carroll</span></td>
+            <td><blockquote>"Subpoenas may be purchased <strong>once you receive your court date</strong> for $10.50 each." (and: "cannot be purchased later than 24 hours of the court date")</blockquote></td>
+            <td class="links">
+              <a href="https://www.carrollcountyga.gov/205/Subpoenas" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Carroll_Subpoenas.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>c2d236f88257</code></a>
+            </td>
+          </tr>
+          <tr class="tier-red">
+            <td><span class="cty">Bibb</span> (Macon-Bibb)</td>
+            <td><blockquote>"If subpoenas are needed, they should be <strong>applied for after you receive your notice of the hearing date</strong>."</blockquote></td>
+            <td class="links">
+              <a href="https://www.maconbibb.us/civil-magistrate-court/instructions/" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Bibb_maconbibb_Instructions.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>7241354ce090</code></a>
+            </td>
+          </tr>
+          <tr class="tier-red">
+            <td><span class="cty">Emanuel</span></td>
+            <td><blockquote>"Subpoenas may be purchased once you receive your court date." + "Subpoenas must be <strong>purchased 10 days prior to your hearing date</strong>."</blockquote></td>
+            <td class="links">
+              <a href="https://www.emanuelco-ga.gov/247/Civil-Claims-Statement-of-Claim" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Emanuel_Civil-Claims.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>ef496a371dfa</code></a>
+            </td>
+          </tr>
+          <tr class="tier-red">
+            <td><span class="cty">Grady</span></td>
+            <td><blockquote>Official downloads require a form titled <strong>"Motion For Issuance of a Subpoena"</strong> — demanding judicial approval for a ministerial act.</blockquote></td>
+            <td class="links">
+              <a href="https://gradycountyga.gov/government/courts/magistrate-court/" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Grady_Magistrate-Court.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>76211b12a408</code></a>
+            </td>
+          </tr>
+          <tr class="tier-red">
+            <td><span class="cty">Pierce</span></td>
+            <td><blockquote>"<strong>Should a witness refuse to come to court, you may have the court issue a subpoena</strong> for their appearance. To do this you must apply to the court for the subpoena…"</blockquote></td>
+            <td class="links">
+              <a href="https://piercecountyga.gov/magistrate-court/" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Pierce_Magistrate-Court.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>b2df2c142a9a</code></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Caution</h2>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>County</th><th>Barrier language</th><th>Proof</th></tr></thead>
+        <tbody>
+          <tr class="tier-amber">
+            <td><span class="cty">Bartow</span></td>
+            <td><blockquote>"all subpoenas must be <strong>authorized and signed by a court official</strong>" — no blank-on-demand access stated.</blockquote></td>
+            <td class="links">
+              <a href="https://www.bartowcountyga.gov/departments/courts/magistrate_court/subpoenas.php" target="_blank" rel="noopener">Live source ↗</a>
+              <a href="evidence/Bartow_Subpoenas.html">Preserved copy</a>
+              <a href="evidence/SHA256SUMS.txt"><code>45f130089fc5</code></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Movement since March — "word got out"</h2>
+    <p class="lede">Since the original audit, several counties quietly changed their published language. In every
+    case the movement was <em>away</em> from gatekeeping — corroborating that the counties are aware they are being watched.</p>
+    <div class="callout">
+      <strong>Pickens — a Richmond-Template county caught covering its tracks.</strong> Its October 2025 witness-subpoena
+      FAQ <strong>deleted</strong> the void phrase ("shall issue… once scheduled for a hearing") and now cites
+      O.C.G.A. § 24-13-21 directly, framing the subpoena as an on-demand "insurance policy" with a blank form provided.
+      The scrub is preserved: <a href="evidence/Pickens_WitnessSubpoena-FAQ_Oct2025_SCRUBBED.pdf">Pickens FAQ (Oct 2025)</a>
+      · <a href="evidence/SHA256SUMS.txt"><code>d6a39e4e82e5</code></a>.
+    </div>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>County</th><th>Change</th><th>Proof</th></tr></thead>
+        <tbody>
+          <tr class="tier-green"><td><span class="cty">Pickens</span></td><td>Non-compliant (Richmond Template) → <strong>scrubbed / compliant</strong></td>
+            <td class="links"><a href="https://pickensgacourts.org/wp-content/uploads/2025/10/PickensCountyMagistrate-WitnessSubpoena.pdf" target="_blank" rel="noopener">Live PDF ↗</a><a href="evidence/Pickens_WitnessSubpoena-FAQ_Oct2025_SCRUBBED.pdf">Preserved</a></td></tr>
+          <tr class="tier-amber"><td><span class="cty">Columbia</span></td><td>Hearing-notice gate removed → <strong>softened</strong> ("prior arrangements with the Court in person")</td>
+            <td class="links"><a href="https://www.columbiacountyga.gov/238/Civil-Cases" target="_blank" rel="noopener">Live ↗</a><a href="evidence/Columbia_Civil-Cases.html">Preserved</a></td></tr>
+          <tr class="tier-amber"><td><span class="cty">Gwinnett</span></td><td>Hard gate dropped → <strong>softened</strong> ("no cost to get a 'blank' subpoena")</td>
+            <td class="links"><a href="https://www.gwinnettcourts.com/magistrate/subpoena" target="_blank" rel="noopener">Live ↗</a><a href="evidence/Gwinnett_Subpoena-FAQ.html">Preserved</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Records requested / pending verification</h2>
+    <p class="lede">These counties either publish no subpoena policy, block automated review, or had a prior finding
+    that their own current documents did not substantiate. None is accused. Each is being confirmed through a
+    Georgia Open Records Act request; results will be posted here as they arrive.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>County</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr class="tier-gray"><td><span class="cty">Douglas</span></td><td>Prior finding not substantiated on county's own documents — records requested</td></tr>
+          <tr class="tier-gray"><td><span class="cty">Fayette</span></td><td>Own claim form uses neutral "see the court at once for assistance" — records requested</td></tr>
+          <tr class="tier-gray"><td><span class="cty">Newton</span></td><td>No subpoena text on county site (prior finding third-party-sourced) — records requested</td></tr>
+          <tr class="tier-gray"><td><span class="cty">Henry, Cobb, Haralson</span></td><td>Content rendered client-side / on separate PDF — manual capture &amp; ORA pending</td></tr>
+          <tr class="tier-gray"><td><span class="cty">Bryan</span></td><td>Site blocks automated review (HTTP 403) — manual capture &amp; ORA pending</td></tr>
+          <tr class="tier-gray"><td><span class="cty">Remaining ~130 counties</span></td><td>Statewide 159-county audit ongoing — pending records verification</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Methodology &amp; chain of custody</h2>
+    <ol class="method">
+      <li>Each county's live subpoena page/form was retrieved on <strong>2026-07-28</strong> (HTTP 200 confirmed) and saved verbatim.</li>
+      <li>Every quoted phrase was <strong>confirmed present in the saved file</strong>, not merely in a rendered view.</li>
+      <li>All preserved files are fingerprinted with SHA-256 in <a href="evidence/SHA256SUMS.txt"><code>SHA256SUMS.txt</code></a>
+          — anyone can run <code>sha256sum -c SHA256SUMS.txt</code> to prove no file was altered after capture.</li>
+      <li>Counties with no published policy are pursued via the Open Records Act; the response becomes the record.</li>
+      <li>Independent third-party timestamps are being added via the Internet Archive's Wayback Machine.</li>
+    </ol>
+    <div class="callout navy">Full narrative &amp; per-county evidence index: <code>SUPPLEMENT_since_v5.md</code> and
+    <code>evidence_2026-07-28/EVIDENCE_LOG.md</code> in the audit record.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <strong>Advocates for Judicial Uniformity</strong> ·
+    <a href="https://www.facebook.com/JudicialUniformity/" target="_blank" rel="noopener">facebook.com/JudicialUniformity</a><br>
+    Audit re-verified 2026-07-28 · O.C.G.A. § 24-13-21(c) statewide Magistrate Court compliance project.
+    <p class="disclaimer">This page reproduces public statements published by the named county courts, with links to their
+    original sources, for the purpose of documenting compliance with Georgia law. Quotations are verbatim as of the
+    capture date. Counties without a documented published policy are listed as "records requested" and are not alleged
+    to be in violation.</p>
+  </div>
+</footer>
+
+</body>
+</html>
