@@ -1,0 +1,3 @@
+# Preserve evidence bytes EXACTLY as captured — no line-ending conversion,
+# so SHA-256 hashes in evidence/SHA256SUMS.txt remain verifiable after clone.
+evidence/** -text
