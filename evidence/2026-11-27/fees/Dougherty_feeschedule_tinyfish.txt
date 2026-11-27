@@ -1,0 +1,12 @@
+SOURCE: tinyfish fetch_content text extraction of https://www.dougherty.ga.us/files/assets/county/v/2/courts/documents/magistrate-court/feeschedule.pdf (curl/python 403 even with browser headers; PDF binary not saved, not rendered to PNG). Title: DOUGHERTY COUNTY MAGISTRATE COURT
+DOUGHERTY COUNTY MAGISTRATE COURT 
+Room 308, Albany-Dougherty Judicial Building 
+Fee Schedule 
+Effective JULY 1, 2024 
+STATEMENT OF CLAIM ........................................................................................         $112.00  
+FIFA 
+Issuance (Payable to Magistrate Court) .............................................................  $4.00 
+GARNISHMENT ..........................................................................................................      $112.00 
+ISSUANCE OF WITNESS SUBPOENA ........................................................................ $10.00 
+ Service (Payable to Sheriff’s Dept)……………………………………………. $10.00 
+ABANDONED VEHICLE ............................................................................................. $51.00 
